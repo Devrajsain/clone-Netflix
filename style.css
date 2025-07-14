@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins" , sans-serif;
+}
+body{
+    background-color: black;
+}
+
+.main{
+    height: 90vh;
+    width: 100%;
+    background-image: url("bg.jpg");
+    background-position: center center;
+    background-size: max(1200px , 100vw);
+    background-repeat: no-repeat;
+    position: relative;
+}
+.box{
+    background-color: black;
+    height: 90vh;
+    width: 100%;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+}
+nav{
+    height: 60px;
+    max-width: 70vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+nav img{
+    position: relative;
+    height: 40px;
+    z-index: 100;
+}
+.main .cont{
+    font-family: 'Martel sans', sans-serif;
+    color: white;
+    position: relative;
+    height: calc(100% - 60px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 0 23px;
+}
+.cont> :nth-child(1){
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+}
+.cont> :nth-child(2){
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+
+}
+.cont> :nth-child(3){
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+
+}
+.btn{
+    margin: 5px;
+    padding: 5px 10px;
+    position: relative;
+    z-index: 100;
+    border-radius: 3px;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
+.btn-e{
+    background-color: rgba(23,23,23,0.2);
+}
+.btn-red{
+    background-color: red;
+}
+.email{
+    color: white;
+    background-color: rgba(23,23,23,0.9);
+    border-radius: 4px;
+    font-size: 12px;
+    padding: 12px 101px 9px 14px;
+}
+.btn-gs{
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 4px;
+    background-color: red;
+    color: white;
+    padding: 3px 20px;
+    cursor: pointer;
+}
+.separation {
+    height: 7px;
+    background-color: rgb(46, 44, 44);
+    position: relative;
+    /* z-index: 20; */
+}
+.first{
+    display: flex;
+    max-width: 80vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
